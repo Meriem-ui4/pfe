@@ -9,10 +9,7 @@
     @yield('styles')
 </head>
 <body class="flex flex-col min-h-screen">
-@if (Request::is('admin/reclamations'))
-    @include('partials.header-admin')
-    @else 
-
+@if (Request::is('/') || Request::is('reclamation') || Request::is('chatbot'))
     @include('partials.header-user')
 @endif
     

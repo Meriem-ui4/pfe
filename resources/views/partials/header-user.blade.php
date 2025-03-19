@@ -7,7 +7,7 @@
         <nav class="hidden md:flex gap-6">
             <a href="{{ route('home') }}" class="text-sm font-medium hover:text-blue-600">Accueil</a>
             <a href="#chatbot" class="text-sm font-medium hover:text-blue-600">Chatbot</a>
-            <a href="#reclamation" class="text-sm font-medium hover:text-blue-600">Réclamation</a>
+            <a href="{{ route('reclamation.create') }}" class="text-sm font-medium hover:text-blue-600">Réclamation</a>
         </nav>
         
         <div class="md:hidden">
@@ -23,7 +23,7 @@
         <div class="container mx-auto px-4 py-3 space-y-1">
             <a href="{{ route('home') }}" class="block px-3 py-2 text-base font-medium hover:bg-gray-100 rounded-md">Accueil</a>
             <a href="#chatbot" class="block px-3 py-2 text-base font-medium hover:bg-gray-100 rounded-md">Chatbot</a>
-            <a href="#reclamation" class="block px-3 py-2 text-base font-medium hover:bg-gray-100 rounded-md">Réclamation</a>
+            <a href="{{ route('reclamation.create') }}" class="block px-3 py-2 text-base font-medium hover:bg-gray-100 rounded-md">Réclamation</a>
             <a href="#" class="block px-3 py-2 text-base font-medium hover:bg-gray-100 rounded-md">Contact</a>
         </div>
     </div>
